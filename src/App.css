@@ -24,6 +24,10 @@ body {
   height: 80px;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Track */
 ::-webkit-scrollbar-track {
   background: #222A35;

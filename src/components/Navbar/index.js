@@ -32,8 +32,8 @@ const Navbar = () => {
 							marginBottom: "20;",
 							cursor: "pointer",
 						}}
-					href="/">
-						<DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+						href="https://soumyapatra.netlify.app">
+						<DiCssdeck size="3rem" /> <Span>SOUMYA RN. PATRA</Span>
 					</a>
 				</NavLogo>
 				<MobileIcon>
