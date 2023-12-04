@@ -1,10 +1,18 @@
+import djangoCertificate from "../images/DjangoCertificate.jpg";
+import pythonProgramme from "../images/PythonCISCO.jpg";
+import pythonBasic from "../images/Python Basic.jpg";
+import javascriptIntermediate from "../images/JavaScript.jpg";
+import reactCertificate from "../images/ReactJS.jpg";
+import IGITLogo from "../images/IGIT Logo.png";
+import GACR from "../images/Government_Autonomous_College_Rkl.jpg";
+
 export const Bio = {
 	name: "Soumya Rn. Patra",
 	roles: [
-		"Python Developer",
+		"Python Programmer",
 		"Django Developer",
-		"Full Stack Developer",
 		"UI/UX Designer",
+		"Full Stack Developer",
 	],
 	description:
 		"I am a dynamic and motivated professional, driven by a passion for continuous learning and a relentless commitment to delivering excellence. With a versatile skill set, my expertise lies in Python, Django, REST API development, as well as proficiency in JavaScript and React.js. I thrive on challenges, approaching each task with a positive attitude and a growth mindset. Whether it's building robust backend systems with Python and Django or crafting seamless user interfaces using React.js.",
@@ -131,7 +139,7 @@ export const experiences = [
 		date: "Jul 2021 - Aug 2021",
 		desc: "Worked on a Django Project called Online Car Rental System. Handled User Authentication, Payment Integration, and Location-Based Car Availability.",
 		skills: ["Django", "Bootstrap"],
-		doc: "https://media.licdn.com/dms/image/D562DAQHoDs-O0iwryw/profile-treasury-document-cover-images_480/0/1698347380910?e=1700150400&v=beta&t=44V2FJwL-zU2usVnVXRS5I-x9-yBg75ZJIWmu3FpSvY",
+		doc: djangoCertificate,
 	},
 	{
 		id: 1,
@@ -141,14 +149,44 @@ export const experiences = [
 		date: "June 2021 - July 2021",
 		desc: "Built an Personal Assistant - JARVIS AI using Python fundamentals and advanced topics like Multithreading, Exception Handling, and File Handling.",
 		skills: ["Python Fundamentals", "Advance Python", "PyQT"],
-		doc: "https://media.licdn.com/dms/image/D562DAQFH_KEBiiO4jQ/profile-treasury-document-cover-images_480/0/1698347630055?e=1700150400&v=beta&t=1d9tL1Pv0any7r9Sb7_Oy_cSXxL5VKSuklFCuB_h-WI",
+		doc: pythonProgramme,
+	},
+	{
+		id: 2,
+		img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HackerRank_Icon-1000px.png/800px-HackerRank_Icon-1000px.png",
+		role: "Frontend Developer (React)",
+		company: "HackerRank",
+		date: "Oct 2023",
+		desc: "Certification of Frontend Developer (React) Skill Assessment by HackerRank.",
+		skills: ["ReactJS", "JavaScript", "CSS"],
+		doc: reactCertificate,
+	},
+	{
+		id: 3,
+		img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HackerRank_Icon-1000px.png/800px-HackerRank_Icon-1000px.png",
+		role: "JavaScript (Intermediate)",
+		company: "HackerRank",
+		date: "Oct 2023",
+		desc: "Certification of JavaScript (Intermediate) Skill Assessment by HackerRank.",
+		skills: ["JavaScript"],
+		doc: javascriptIntermediate,
+	},
+	{
+		id: 4,
+		img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HackerRank_Icon-1000px.png/800px-HackerRank_Icon-1000px.png",
+		role: "Python (Basic)",
+		company: "HackerRank",
+		date: "Oct 2023",
+		desc: "Certification of Python (Basic) Skill Assessment by HackerRank.",
+		skills: ["Python"],
+		doc: pythonBasic,
 	},
 ];
 
 export const education = [
 	{
 		id: 0,
-		img: "https://scontent.fblr1-6.fna.fbcdn.net/v/t39.30808-1/358698555_572265135096518_8561413682592739046_n.jpg?stp=cp0_dst-jpg_e15_p120x120_q65&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=-onIEW3WZegAX-fi-Aq&_nc_ht=scontent.fblr1-6.fna&oh=00_AfC9tqwZBkialsxUD2bCx60RdDKgR5JWgTlVDjUxnamRCw&oe=65517693",
+		img: IGITLogo,
 		school: "Indira Gandhi Institute of Technology, Sarang, Odisha",
 		date: "Aug 2018 - May 2022",
 		grade: "7.99 CGPA",
@@ -157,7 +195,7 @@ export const education = [
 	},
 	{
 		id: 1,
-		img: "https://scontent.fblr1-9.fna.fbcdn.net/v/t39.30808-1/291732540_412733230874248_2557823550900959453_n.jpg?stp=cp0_dst-jpg_e15_q65_s240x240&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Dx6YkLBfJZ4AX_TAL2D&_nc_ht=scontent.fblr1-9.fna&oh=00_AfAQ2540iyO1jO9uyDHZG45OXAODSrCutsDGHh_S53VvOA&oe=6551BF2A",
+		img: GACR,
 		school: "Government Junior College, Rourkela, Odisha",
 		date: "Apr 2016 - Apr 2018",
 		grade: "68.33%",
@@ -178,12 +216,11 @@ export const education = [
 export const projects = [
 	{
 		id: 9,
-		title: "Pro Badminton",
+		title: "Badminton Pros - A Online Store",
 		date: "Sep 2023 - Present",
 		description:
 			"Designed and developed an E-Commerce website 'Pro Badminton' using Django, HTML, CSS, and JavaScript. It is a robust e-commerce solution tailored to badminton and professionals. Its user-friendly interface, security features, and payment integration make it a reliable and convenient online destination for those seeking high quality badminton equipment. This platform offers an exceptional online shopping experience for all your badminton needs. Key features of the platform are User Authentication, Email Verification, Payment Integration, Product Categories, Search and Filter, Shopping Cart and Checkout, Admin Panel, and Order Tracking.",
-		image:
-			"https://github.com/study-soumya/Book-A-Car/raw/main/image/README/1699734715136.png",
+		image: "",
 		tags: ["Django", "HTML", "CSS", "JavaScript", "SQLite3"],
 		category: "web app",
 		github: "#",
@@ -191,7 +228,7 @@ export const projects = [
 	},
 	{
 		id: 0,
-		title: "IT Eagle Club Services",
+		title: "IT Eagle Club Services - A Social Service Website",
 		date: "Jun 2023 - Jul 2023",
 		description:
 			"Designed and built a Personal Blog website 'IT Eagle Club Services' using Django, HTML, CSS, JavaScript and Bootstrap 4. Implemented User Authentication, Content Creation and Management, Categorization and Tagging, Commenting and Engagement, Search and Navigation functions for individuals to share their ideas, stories, and experiences.",
