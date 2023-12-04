@@ -205,7 +205,7 @@ export const education = [
 	{
 		id: 2,
 		img: "https://scontent.fblr1-5.fna.fbcdn.net/v/t1.18169-9/14199710_1272210999457306_9130381511217029448_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=300f58&_nc_ohc=DA-NUXNNNZUAX_DtDrV&_nc_ht=scontent.fblr1-5.fna&oh=00_AfANUeXZiJdSCSZAmfqaUOiuvRutaPLCsq7XGMS3euNbzg&oe=657472AE",
-		school: "Chhend Public School, Rourkela",
+		school: "Chhend Public School, Rourkela, Odisha",
 		date: "Apr 2017 - Apr 2019",
 		grade: "81.13%",
 		desc: "My foundational education took place at Chhend Public School, Rourkela, where I successfully completed my Class 10 studies.",
