@@ -328,7 +328,7 @@ export const projects = [
 		tags: ["Django", "HTML", "CSS", "JavaScript", "BootStrap 4"],
 		category: "web app",
 		github: "https://github.com/study-soumya/Book-A-Car",
-		webapp: "http://soumyapatra.pythonanywhere.com/",
+		webapp: "https://soumyapatra.pythonanywhere.com/",
 	},
 	{
 		id: 7,
