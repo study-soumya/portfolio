@@ -216,15 +216,16 @@ export const education = [
 export const projects = [
 	{
 		id: 9,
-		title: "Badminton Pros - A Online Store",
-		date: "Sep 2023 - Present",
+		title: "Badminton Pros - An Online Store",
+		date: "Sep 2023 - Dec 2023",
 		description:
-			"Designed and developed an E-Commerce website 'Pro Badminton' using Django, HTML, CSS, and JavaScript. It is a robust e-commerce solution tailored to badminton and professionals. Its user-friendly interface, security features, and payment integration make it a reliable and convenient online destination for those seeking high quality badminton equipment. This platform offers an exceptional online shopping experience for all your badminton needs. Key features of the platform are User Authentication, Email Verification, Payment Integration, Product Categories, Search and Filter, Shopping Cart and Checkout, Admin Panel, and Order Tracking.",
-		image: "",
-		tags: ["Django", "HTML", "CSS", "JavaScript", "SQLite3"],
+			"Designed and developed an E-Commerce website 'Badminton Pros - An Online Store' using Django, HTML, CSS, JavaScript and Bootstrap. It is a robust e-commerce solution tailored to badminton and professionals. Its user-friendly interface, security features, and payment integration make it a reliable and convenient online destination for those seeking high quality badminton equipment. This platform offers an exceptional online shopping experience for all your badminton needs. Key features of the platform are User Authentication, Email Verification, Payment Integration, Product Categories, Search and Filter, Shopping Cart and Checkout, Admin Panel, and Order Tracking.",
+		image:
+			"https://github.com/study-soumya/Badminton-Pros/raw/main/image/README/1702650795491.png",
+		tags: ["Django", "HTML", "CSS", "JavaScript", "Bootstrap", "SQLite3"],
 		category: "web app",
-		github: "#",
-		webapp: "#",
+		github: "https://github.com/study-soumya/Badminton-Pros",
+		webapp: "https://github.com/study-soumya/Badminton-Pros",
 	},
 	{
 		id: 0,
