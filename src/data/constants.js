@@ -5,6 +5,7 @@ import javascriptIntermediate from "../images/JavaScript.jpg";
 import reactCertificate from "../images/ReactJS.jpg";
 import IGITLogo from "../images/IGIT Logo.png";
 import GACR from "../images/Government_Autonomous_College_Rkl.jpg";
+import Chhend_Public_School from "../images/Chhend_Public_School.jpg";
 
 export const Bio = {
 	name: "Soumya Rn. Patra",
@@ -204,7 +205,7 @@ export const education = [
 	},
 	{
 		id: 2,
-		img: "https://scontent.fblr1-5.fna.fbcdn.net/v/t1.18169-9/14199710_1272210999457306_9130381511217029448_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=300f58&_nc_ohc=DA-NUXNNNZUAX_DtDrV&_nc_ht=scontent.fblr1-5.fna&oh=00_AfANUeXZiJdSCSZAmfqaUOiuvRutaPLCsq7XGMS3euNbzg&oe=657472AE",
+		img: Chhend_Public_School,
 		school: "Chhend Public School, Rourkela, Odisha",
 		date: "Apr 2017 - Apr 2019",
 		grade: "81.13%",
