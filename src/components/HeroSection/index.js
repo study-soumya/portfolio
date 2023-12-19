@@ -13,7 +13,7 @@ import {
 	SubTitle,
 	ResumeButton,
 } from "./HeroStyle";
-import HeroImg from "../../images/HeroImage1.jpeg";
+import HeroImg from "../../images/HeroImage.jpeg";
 import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/constants";
 
