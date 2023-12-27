@@ -239,7 +239,7 @@ export const projects = [
 		tags: ["Django", "HTML", "CSS", "JavaScript", "Bootstrap 4"],
 		category: "web app",
 		github: "https://github.com/study-soumya/IT-Eagle-Club-Services",
-		webapp: "https://sonusoum.pythonanywhere.com/",
+		webapp: "https://it-eagles-club-services.onrender.com",
 	},
 	{
 		id: 1,
@@ -252,7 +252,7 @@ export const projects = [
 		tags: ["Django", "Bootstrap 4", "SQLite3"],
 		category: "web app",
 		github: "https://github.com/study-soumya/Student-s-Point",
-		webapp: "https://studentspoint.pythonanywhere.com/",
+		webapp: "https://students-point.onrender.com",
 	},
 	{
 		id: 2,
@@ -330,7 +330,7 @@ export const projects = [
 		tags: ["Django", "HTML", "CSS", "JavaScript", "BootStrap 4"],
 		category: "web app",
 		github: "https://github.com/study-soumya/Book-A-Car",
-		webapp: "https://soumyapatra.pythonanywhere.com/",
+		webapp: "https://book-a-car.onrender.com",
 	},
 	{
 		id: 7,
