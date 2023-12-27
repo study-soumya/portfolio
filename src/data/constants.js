@@ -226,7 +226,7 @@ export const projects = [
 		tags: ["Django", "HTML", "CSS", "JavaScript", "Bootstrap", "SQLite3"],
 		category: "web app",
 		github: "https://github.com/study-soumya/Badminton-Pros",
-		webapp: "https://github.com/study-soumya/Badminton-Pros",
+		webapp: "https://badminton-pros.onrender.com",
 	},
 	{
 		id: 0,
