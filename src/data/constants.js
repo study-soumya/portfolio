@@ -198,7 +198,7 @@ export const education = [
 		id: 1,
 		img: GACR,
 		school: "Government Junior College, Rourkela, Odisha",
-		date: "August 2016 - May 2018",
+		date: "Aug 2016 - May 2018",
 		grade: "68.33%",
 		desc: "I completed my class Higher Secondary Education at Government Junior College, Rourkela, where I pursued a Science curriculum with a focus on Statistics.",
 		degree: "CHSE(XII), Science with Statistics",
