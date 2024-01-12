@@ -207,7 +207,7 @@ export const education = [
 		id: 2,
 		img: Chhend_Public_School,
 		school: "Chhend Public School, Rourkela, Odisha",
-		date: "Apr 2017 - Apr 2019",
+		date: "May 2016",
 		grade: "81.13%",
 		desc: "My foundational education took place at Chhend Public School, Rourkela, where I successfully completed my Class 10 studies.",
 		degree: "BSE(X)",
