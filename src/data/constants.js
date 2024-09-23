@@ -16,7 +16,7 @@ export const Bio = {
 		"Full Stack Developer",
 	],
 	description:
-		"I am a dynamic and motivated professional, driven by a passion for continuous learning and a relentless commitment to delivering excellence. With a versatile skill set, my expertise lies in Python, Django, REST API development, as well as proficiency in JavaScript and React.js. I thrive on challenges, approaching each task with a positive attitude and a growth mindset. Whether it's building robust backend systems with Python and Django or crafting seamless user interfaces using React.js.",
+		"I am a dynamic and motivated professional, driven by a passion for continuous learning and a relentless commitment to delivering excellence.\nWith a versatile skill set, my expertise lies in Python, Django, REST API development, as well as proficiency in JavaScript and React.js. I thrive on challenges, approaching each task with a positive attitude and a growth mindset. Whether it's building robust backend systems with Python and Django or crafting seamless user interfaces using React.js.",
 	github: "https://github.com/study-soumya",
 	resume:
 		"https://drive.google.com/file/d/1C3t0C8DF5JvFI1PtyMn09mB2r7wUjHth/view?usp=sharing",
