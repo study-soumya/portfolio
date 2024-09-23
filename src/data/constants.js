@@ -207,7 +207,7 @@ export const projects = [
 		description:
 			"The Django E-Learning Platform is a dynamic educational platform that facilitates learning through structured courses, interactive content, and a user-friendly interface. It's designed to cater to both educators who want to share knowledge and learners seeking to expand their horizons.",
 		image:
-			"https://github.com/study-soumya/educa-eLearning/raw/main/image/README/1721712602582.png",
+			"https://github.com/study-soumya/educa-eLearning/raw/main/image/README/1721713716286.png",
 		tags: ["Django", "Django REST Framework", "Celery", "Redis", "WebSocket", "Nginx", "Docker", "Bootstrap","PostgreSQL"],
 		category: "web app",
 		github: "https://github.com/study-soumya/educa-eLearning/blob/main/README.md",
@@ -376,7 +376,7 @@ export const projects = [
 		description:
 			"This is a travel website built using ReactJS, and Sass.",
 		image:
-			"https://private-user-images.githubusercontent.com/145110077/369824319-cb51e2b5-51cb-4834-b86a-bd20a15416a8.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjcwODUyMTYsIm5iZiI6MTcyNzA4NDkxNiwicGF0aCI6Ii8xNDUxMTAwNzcvMzY5ODI0MzE5LWNiNTFlMmI1LTUxY2ItNDgzNC1iODZhLWJkMjBhMTU0MTZhOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwOTIzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDkyM1QwOTQ4MzZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03ZmFlODNlY2I5NzMwMWJjNDA3YzUzMmJiZDYxOTczNjRlNzE1MmU5YzIwMzllMDdhYjJkMWY1ZTUwN2VjYjNiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.BBUgA0c9E7MNBxQKG_x1-zmoKuNfp9OHfrwCQttWZHA",
+			"https://private-user-images.githubusercontent.com/145110077/369834225-aa1a9a37-5ce6-4c76-9edc-6a3b95ac432f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjcwODcxODgsIm5iZiI6MTcyNzA4Njg4OCwicGF0aCI6Ii8xNDUxMTAwNzcvMzY5ODM0MjI1LWFhMWE5YTM3LTVjZTYtNGM3Ni05ZWRjLTZhM2I5NWFjNDMyZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwOTIzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDkyM1QxMDIxMjhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yNjBmY2YwYzYzZWY4NDVlZDZjMzFmZmYzOGUwMjAzNjE4YTE1NWZmMzZhMWJkZWU3MWE4MjcxNzg4ODYxNTVkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.QUpfvDNpzVcN6N9u3ZOT40y1kJnPj3D_EQ8uOXOHwIk",
 		tags: ["ReactJS", "Sass"],
 		category: "UI/UX Designs",
 		github: "https://github.com/study-soumya/da-travel",
