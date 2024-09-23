@@ -118,19 +118,6 @@ export const skills = [
 
 export const experiences = [
 	{
-		id: 12,
-		title: "Educa",
-		date: "May 2024 - Jul 2024",
-		description:
-			"The Django E-Learning platform, a cutting-edge online education platform designed to revolutionize the way we learn. Built with Django, a powerful Python web framework, this platform offers a comprehensive suite of tools for educators and learners alike.",
-		image:
-			"https://github.com/study-soumya/educa-eLearning/raw/main/image/README/1721712602582.png",
-		tags: ["Django", "Django REST Framework", "Celery", "Redis", "WebSocket", "Nginx", "Docker", "PostgreSQL"],
-		category: "web app",
-		github: "https://github.com/study-soumya/educa-eLearning/blob/main/README.md",
-		webapp: "https://github.com/study-soumya/educa-eLearning/blob/main/README.md",
-	},
-	{
 		id: 0,
 		img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HackerRank_Icon-1000px.png/800px-HackerRank_Icon-1000px.png",
 		role: "Python (Basic)",
