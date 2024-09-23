@@ -10,7 +10,7 @@ import Chhend_Public_School from "../images/Chhend_Public_School.jpg";
 export const Bio = {
 	name: "Soumya Rn. Patra",
 	roles: [
-		"Python Programmer",
+		"Python Developer",
 		"Django Developer",
 		"UI/UX Designer",
 		"Full Stack Developer",
@@ -19,7 +19,7 @@ export const Bio = {
 		"I am a dynamic and motivated professional, driven by a passion for continuous learning and a relentless commitment to delivering excellence. With a versatile skill set, my expertise lies in Python, Django, REST API development, as well as proficiency in JavaScript and React.js. I thrive on challenges, approaching each task with a positive attitude and a growth mindset. Whether it's building robust backend systems with Python and Django or crafting seamless user interfaces using React.js.",
 	github: "https://github.com/study-soumya",
 	resume:
-		"https://drive.google.com/file/d/1ESqoyr7kr9YI-fAPaMHbHLkXyN1tr86P/view?usp=sharing",
+		"https://drive.google.com/file/d/1C3t0C8DF5JvFI1PtyMn09mB2r7wUjHth/view?usp=sharing",
 	linkedin: "https://www.linkedin.com/in/patra-soumya/",
 	twitter: "https://twitter.com/Its_Soum_404",
 	insta: "https://www.instagram.com/so_n_u_soum/",
@@ -118,24 +118,37 @@ export const skills = [
 
 export const experiences = [
 	{
+		id: 12,
+		title: "Educa",
+		date: "May 2024 - Jul 2024",
+		description:
+			"The Django E-Learning platform, a cutting-edge online education platform designed to revolutionize the way we learn. Built with Django, a powerful Python web framework, this platform offers a comprehensive suite of tools for educators and learners alike.",
+		image:
+			"https://github.com/study-soumya/educa-eLearning/raw/main/image/README/1721712602582.png",
+		tags: ["Django", "Django REST Framework", "Celery", "Redis", "WebSocket", "Nginx", "Docker", "PostgreSQL"],
+		category: "web app",
+		github: "https://github.com/study-soumya/educa-eLearning/blob/main/README.md",
+		webapp: "https://github.com/study-soumya/educa-eLearning/blob/main/README.md",
+	},
+	{
 		id: 0,
-		img: "https://media.licdn.com/dms/image/C510BAQHTUTKiMOSbyw/company-logo_200_200/0/1630615017322?e=2147483647&v=beta&t=1vDDPfFKGemx94-t_wJuSIfZ-FLa1mSrpodwe5zAM_I",
-		role: "Django Developer Intern",
-		company: "Pie Infocomm Pvt. Ltd.",
-		date: "Jul 2021 - Aug 2021",
-		desc: "Worked on a Django Project called Online Car Rental System. Handled User Authentication, Payment Integration, and Location-Based Car Availability.",
-		skills: ["Django", "Bootstrap"],
-		doc: djangoCertificate,
+		img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HackerRank_Icon-1000px.png/800px-HackerRank_Icon-1000px.png",
+		role: "Python (Basic)",
+		company: "HackerRank",
+		date: "Oct 2023",
+		desc: "Certification of Python (Basic) Skill Assessment by HackerRank.",
+		skills: ["Python"],
+		doc: pythonBasic,
 	},
 	{
 		id: 1,
-		img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Cisco_academy_logo.svg/1200px-Cisco_academy_logo.svg.png",
-		role: "Python Programme",
-		company: "CISCO Networking Academy",
-		date: "June 2021 - July 2021",
-		desc: "Built an Personal Assistant - JARVIS AI using Python fundamentals and advanced topics like Multithreading, Exception Handling, and File Handling.",
-		skills: ["Python Fundamentals", "Advance Python", "PyQT"],
-		doc: pythonProgramme,
+		img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HackerRank_Icon-1000px.png/800px-HackerRank_Icon-1000px.png",
+		role: "JavaScript (Intermediate)",
+		company: "HackerRank",
+		date: "Oct 2023",
+		desc: "Certification of JavaScript (Intermediate) Skill Assessment by HackerRank.",
+		skills: ["JavaScript"],
+		doc: javascriptIntermediate,
 	},
 	{
 		id: 2,
@@ -149,23 +162,23 @@ export const experiences = [
 	},
 	{
 		id: 3,
-		img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HackerRank_Icon-1000px.png/800px-HackerRank_Icon-1000px.png",
-		role: "JavaScript (Intermediate)",
-		company: "HackerRank",
-		date: "Oct 2023",
-		desc: "Certification of JavaScript (Intermediate) Skill Assessment by HackerRank.",
-		skills: ["JavaScript"],
-		doc: javascriptIntermediate,
+		img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Cisco_academy_logo.svg/1200px-Cisco_academy_logo.svg.png",
+		role: "Python Programme",
+		company: "CISCO Networking Academy",
+		date: "June 2021 - July 2021",
+		desc: "Built an Personal Assistant - JARVIS AI using Python fundamentals and advanced topics like Multithreading, Exception Handling, and File Handling.",
+		skills: ["Python Fundamentals", "Advance Python", "PyQT"],
+		doc: pythonProgramme,
 	},
 	{
 		id: 4,
-		img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HackerRank_Icon-1000px.png/800px-HackerRank_Icon-1000px.png",
-		role: "Python (Basic)",
-		company: "HackerRank",
-		date: "Oct 2023",
-		desc: "Certification of Python (Basic) Skill Assessment by HackerRank.",
-		skills: ["Python"],
-		doc: pythonBasic,
+		img: "https://media.licdn.com/dms/image/C510BAQHTUTKiMOSbyw/company-logo_200_200/0/1630615017322?e=2147483647&v=beta&t=1vDDPfFKGemx94-t_wJuSIfZ-FLa1mSrpodwe5zAM_I",
+		role: "Django Developer Intern",
+		company: "Pie Infocomm Pvt. Ltd.",
+		date: "Jul 2021 - Aug 2021",
+		desc: "Worked on a Django Project called Online Car Rental System. Handled User Authentication, Payment Integration, and Location-Based Car Availability.",
+		skills: ["Django", "Bootstrap"],
+		doc: djangoCertificate,
 	},
 ];
 
@@ -201,7 +214,20 @@ export const education = [
 
 export const projects = [
 	{
-		id: 9,
+		id: 12,
+		title: "Educa - eLearning Platform",
+		date: "May 2024 - Jul 2024",
+		description:
+			"The Django E-Learning Platform is a dynamic educational platform that facilitates learning through structured courses, interactive content, and a user-friendly interface. It's designed to cater to both educators who want to share knowledge and learners seeking to expand their horizons.",
+		image:
+			"https://github.com/study-soumya/educa-eLearning/raw/main/image/README/1721712602582.png",
+		tags: ["Django", "Django REST Framework", "Celery", "Redis", "WebSocket", "Nginx", "Docker", "Bootstrap","PostgreSQL"],
+		category: "web app",
+		github: "https://github.com/study-soumya/educa-eLearning/blob/main/README.md",
+		webapp: "https://github.com/study-soumya/educa-eLearning/blob/main/README.md",
+	},
+	{
+		id: 0,
 		title: "Badminton Pros - An Online Store",
 		date: "Sep 2023 - Dec 2023",
 		description:
@@ -214,8 +240,8 @@ export const projects = [
 		webapp: "https://badminton-pros.onrender.com",
 	},
 	{
-		id: 0,
-		title: "IT Eagle Club Services - A Social Service Website",
+		id: 1,
+		title: "ITECS - Blog Website",
 		date: "Jun 2023 - Jul 2023",
 		description:
 			"Designed and built a Personal Blog website 'IT Eagle Club Services' using Django, HTML, CSS, JavaScript and Bootstrap 4. Implemented User Authentication, Content Creation and Management, Categorization and Tagging, Commenting and Engagement, Search and Navigation functions for individuals to share their ideas, stories, and experiences.",
@@ -227,7 +253,7 @@ export const projects = [
 		webapp: "https://it-eagles-club-services.onrender.com",
 	},
 	{
-		id: 1,
+		id: 2,
 		title: "Student's Point",
 		date: "Jan 2023 - Mar 2023",
 		description:
@@ -240,7 +266,7 @@ export const projects = [
 		webapp: "https://students-point.onrender.com",
 	},
 	{
-		id: 2,
+		id: 3,
 		title: "Sweat Blood",
 		date: "Nov 2022 - Dec 2022",
 		description:
@@ -253,7 +279,7 @@ export const projects = [
 		webapp: "https://sweat-blood.netlify.app/",
 	},
 	{
-		id: 3,
+		id: 4,
 		title: "DestinationsUnveiled",
 		date: "Sep 2022 - Oct 2022",
 		description:
@@ -266,7 +292,7 @@ export const projects = [
 		webapp: "https://destinations-unveiled.netlify.app/",
 	},
 	{
-		id: 10,
+		id: 5,
 		title: "Fruits Delight",
 		date: "Jul 2022 - Aug 2022",
 		description:
@@ -279,7 +305,7 @@ export const projects = [
 		webapp: "https://fruits-delight.netlify.app/",
 	},
 	{
-		id: 4,
+		id: 6,
 		title: "Day Light",
 		date: "Apr 2022 - May 2022",
 		description:
@@ -292,7 +318,7 @@ export const projects = [
 		webapp: "https://day-light-bulb.netlify.app/",
 	},
 	{
-		id: 5,
+		id: 7,
 		title: "JBL",
 		date: "Mar 2022",
 		description:
@@ -305,7 +331,7 @@ export const projects = [
 		webapp: "https://bass-expert-jbl.netlify.app/",
 	},
 	{
-		id: 6,
+		id: 8,
 		title: "Book A Car",
 		date: "Jul 2021 - Aug 2021",
 		description:
@@ -318,7 +344,7 @@ export const projects = [
 		webapp: "https://book-a-car.onrender.com",
 	},
 	{
-		id: 7,
+		id: 9,
 		title: "JARVIS AI",
 		date: "Jun 2021 - Jul 2021",
 		description:
@@ -331,7 +357,7 @@ export const projects = [
 		webapp: "https://github.com/study-soumya/JARVIS-AI",
 	},
 	{
-		id: 8,
+		id: 10,
 		title: "Snake Game",
 		date: "Mar 2021",
 		description:
@@ -343,12 +369,30 @@ export const projects = [
 		github: "https://github.com/study-soumya/snake-game",
 		webapp: "https://github.com/study-soumya/snake-game",
 	},
+	{
+		id: 11,
+		title: "XCrypto",
+		date: "Jan 2024",
+		description:
+			"Built and develop a React App called xCrypto, which is a web application collecting online currency data from a third-party API. The app is designed to be user-friendly and easy to use. The user can see the coins in different currencies.",
+		image:
+			"https://github.com/user-attachments/assets/c5bb019d-db0d-4131-8861-9c60b4a986eb",
+		tags: ["ReactJS", "JavaScript"],
+		category: "UI/UX Designs",
+		github: "https://github.com/study-soumya/xCrypto/blob/main/README.md",
+		webapp: "https://xcrypto-azure-zeta.vercel.app/",
+	},
+	{
+		id: 13,
+		title: "da-Travel",
+		date: "Feb 2024",
+		description:
+			"This is a travel website built using ReactJS, and Sass.",
+		image:
+			"https://private-user-images.githubusercontent.com/145110077/369824319-cb51e2b5-51cb-4834-b86a-bd20a15416a8.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjcwODUyMTYsIm5iZiI6MTcyNzA4NDkxNiwicGF0aCI6Ii8xNDUxMTAwNzcvMzY5ODI0MzE5LWNiNTFlMmI1LTUxY2ItNDgzNC1iODZhLWJkMjBhMTU0MTZhOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwOTIzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDkyM1QwOTQ4MzZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03ZmFlODNlY2I5NzMwMWJjNDA3YzUzMmJiZDYxOTczNjRlNzE1MmU5YzIwMzllMDdhYjJkMWY1ZTUwN2VjYjNiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.BBUgA0c9E7MNBxQKG_x1-zmoKuNfp9OHfrwCQttWZHA",
+		tags: ["ReactJS", "Sass"],
+		category: "UI/UX Designs",
+		github: "https://github.com/study-soumya/da-travel",
+		webapp: "https://da-travel.vercel.app/",
+	},
 ];
-
-// export const TimeLineData = [
-// 	{ year: 2017, text: "Started my journey" },
-// 	{ year: 2018, text: "Worked as a freelance developer" },
-// 	{ year: 2019, text: "Founded JavaScript Mastery" },
-// 	{ year: 2020, text: "Shared my projects with the world" },
-// 	{ year: 2021, text: "Started my own platform" },
-// ];
