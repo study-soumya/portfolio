@@ -109,7 +109,7 @@ function Footer() {
 						<InstagramIcon />
 					</SocialMediaIcon>
 				</SocialMediaIcons>
-				<Copyright>&copy; 2023 Soumya Ranjan Patra. All rights reserved.</Copyright>
+				<Copyright>&copy; 2025 Soumya Ranjan Patra. All rights reserved.</Copyright>
 			</FooterWrapper>
 		</FooterContainer>
 	);

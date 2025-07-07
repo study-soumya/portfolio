@@ -43,37 +43,37 @@ const Projects = ({ openModal, setOpenModal }) => {
 						</ToggleButton>
 					) : (
 						<ToggleButton value="web app" onClick={() => setToggle("web app")}>
-							Web App's
+							Web Apps
 						</ToggleButton>
 					)}
 					<Divider />
-					{toggle === "UI/UX Designs" ? (
+					{toggle === "mobile app" ? (
 						<ToggleButton
 							active
-							value="UI/UX Designs"
-							onClick={() => setToggle("UI/UX Designs")}>
-							UI/UX Designs
+							value="mobile app"
+							onClick={() => setToggle("mobile app")}>
+							Mobile Apps
 						</ToggleButton>
 					) : (
 						<ToggleButton
-							value="UI/UX Designs"
-							onClick={() => setToggle("UI/UX Designs")}>
-							UI/UX Designs
+							value="mobile app"
+							onClick={() => setToggle("mobile app")}>
+							Mobile Apps
 						</ToggleButton>
 					)}
 					<Divider />
-					{toggle === "python" ? (
+					{toggle === "tools" ? (
 						<ToggleButton
 							active
-							value="python"
-							onClick={() => setToggle("python")}>
+							value="tools"
+							onClick={() => setToggle("tools")}>
 							Python App's
 						</ToggleButton>
 					) : (
 						<ToggleButton
-							value="python"
-							onClick={() => setToggle("python")}>
-							Python App's
+							value="tools"
+							onClick={() => setToggle("tools")}>
+							Tools
 						</ToggleButton>
 					)}
 				</ToggleButtonGroup>

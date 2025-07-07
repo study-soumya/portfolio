@@ -27,7 +27,7 @@ export const Bio = {
 		`,
 	github: "https://github.com/study-soumya",
 	resume:
-		"https://drive.google.com/file/d/1C3t0C8DF5JvFI1PtyMn09mB2r7wUjHth/view?usp=sharing",
+		"https://drive.google.com/file/d/1_-xEqKCopXbokGO0SVzV_Pdm_Cesmfn3/view?usp=sharing",
 	linkedin: "https://www.linkedin.com/in/patra-soumya/",
 	twitter: "https://twitter.com/Its_Soum_404",
 	insta: "https://www.instagram.com/so_n_u_soum/",
@@ -215,7 +215,7 @@ export const projects = [
 			"Designed and implemented backend architecture for AI-powered anomaly detection using Django REST Framework and React.js. Scaled application across multiple regions using GCP and handled 1,000+ concurrent users with secure, interactive dashboards.",
 		image: Nexify,
 		tags: ["Python", "Django REST Framework", "React.js", "Docker", "GCP"],
-		category: "web app",
+		category: "tools",
 	},
 	{
 		id: 2,
@@ -226,7 +226,7 @@ export const projects = [
 			"Created secure APIs to process Bluetooth-based glucose readings in real time with 99% accuracy. Enabled OTP-based authentication, improved MySQL retrieval speeds by 30%, and automated onboarding for 1,000+ medical camp users.",
 		image: GluTrend,
 		tags: ["Python", "Django REST Framework", "React.js", "Docker", "Nginx", "SMTP", "JWt","GCP"],
-		category: "web app",
+		category: "mobile app",
 	},
 	{
 		id: 3,
