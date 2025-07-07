@@ -1,4 +1,8 @@
-import djangoCertificate from "../images/DjangoCertificate.jpg";
+import CloudDashboard from "../images/CloudDashboard.png";
+import Nexify from "../images/Nexify.png";
+import CCTVDashboard from "../images/CCTVDashboard.png";
+import GluTrend from "../images/GluTrend.png";
+import PolicyStreet from "../images/PolicyStreet.png";
 import pythonProgramme from "../images/PythonCISCO.jpg";
 import pythonBasic from "../images/Python Basic.jpg";
 import javascriptIntermediate from "../images/JavaScript.jpg";
@@ -12,11 +16,15 @@ export const Bio = {
 	roles: [
 		"Python Developer",
 		"Django Developer",
-		"UI/UX Designer",
+		"Software Engineer",
 		"Full Stack Developer",
 	],
-	description:
-		"I am a dynamic and motivated professional, driven by a passion for continuous learning and a relentless commitment to delivering excellence.\nWith a versatile skill set, my expertise lies in Python, Django, REST API development, as well as proficiency in JavaScript and React.js. I thrive on challenges, approaching each task with a positive attitude and a growth mindset. Whether it's building robust backend systems with Python and Django or crafting seamless user interfaces using React.js.",
+	description: `
+		I am a dynamic and motivated Python Developer with 3+ years of experience in building scalable web applications, RESTful APIs, and microservices using Python, Django, and React.js.
+		Skilled in end-to-end development—from crafting robust backends to designing intuitive frontends—with strong expertise in MySQL, Docker, GCP, and Celery.
+		I thrive on solving complex technical problems, optimizing performance, and deploying secure, high-availability systems in cloud environments.
+		Passionate about continuous learning, I bring a growth mindset, positive attitude, and a commitment to delivering excellence in every project.
+		`,
 	github: "https://github.com/study-soumya",
 	resume:
 		"https://drive.google.com/file/d/1C3t0C8DF5JvFI1PtyMn09mB2r7wUjHth/view?usp=sharing",
@@ -54,35 +62,20 @@ export const skills = [
 				image:
 					"https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
 			},
+			{
+				name: "jQuery",
+				image: "https://cdn-icons-png.flaticon.com/128/16025/16025484.png",
+			}
 		],
 	},
 	{
-		title: "Backend",
+		title: "Languages & Frameworks",
 		skills: [
 			{
 				name: "Python",
 				image:
 					"https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
 			},
-			{
-				name: "MySQL",
-				image:
-					"https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-			},
-			{
-				name: "Postgresql",
-				image: "https://www.postgresql.org/media/img/about/press/elephant.png",
-			},
-			{
-				name: "MongoDB",
-				image:
-					"https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-			},
-		],
-	},
-	{
-		title: "Frameworks",
-		skills: [
 			{
 				name: "Django",
 				image:
@@ -92,16 +85,80 @@ export const skills = [
 				name: "Django REST Framework",
 				image: "https://www.django-rest-framework.org/img/logo.png",
 			},
+			{
+				name: "SQL",
+				image: "https://cdn-icons-png.flaticon.com/128/2772/2772128.png",
+			},
+			
 		],
 	},
 	{
-		title: "Others",
+		title: "Database",
 		skills: [
+			{
+				name: "MySQL",
+				image:
+					"https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+			},
+			{
+				name: "SQLite",
+				image: "https://cdn-icons-png.flaticon.com/128/14421/14421786.png"
+			}
+		],
+	},
+	{
+		title: "Libraries & Tools",
+		skills: [
+			{
+				name: "Celery",
+				image:
+					"https://cdn-icons-png.flaticon.com/128/2268/2268897.png",
+			},
+			{
+				name: "Pandas",
+				image:
+					"https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original-wordmark.svg",
+			},
+			{
+				name: "NumPy",
+				image:
+					"https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original-wordmark.svg",
+			},
+		],
+	},
+	{
+		title: "Cloud & DevOps",
+		skills: [
+			{
+				name: "Google Cloud Platform",
+				image:
+					"https://cdn-icons-png.flaticon.com/128/300/300221.png",
+			},
+			{
+				name: "Docker",
+				image:
+					"https://cdn-icons-png.flaticon.com/128/15466/15466088.png",
+			},
 			{
 				name: "GitHub",
 				image:
 					"https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
 			},
+			{
+				name: "GitHub Actions",
+				image:
+					"https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+			},
+			{
+				name: "Nginx",
+				image:
+					"https://img.icons8.com/color/512/nginx.png",
+			},
+		]
+	},
+	{
+		title: "Others",
+		skills: [
 			{
 				name: "Netlify",
 				image:
@@ -112,11 +169,90 @@ export const skills = [
 				image:
 					"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
 			},
-		],
-	},
+		]
+	}
 ];
 
 export const experiences = [
+	{
+		id: 0,
+		img: "https://aivolved.in/wp-content/uploads/2022/11/ai-logo.png",
+		role: "Python Developer",
+		company: "AiVolved Technologies Pvt. Ltd.",
+		date: "Nov 2024 - Present",
+		desc: "Currently working as a Python Developer at AiVolved Technologies Pvt. Ltd. with hands-on experience in building scalable, responsive web applications and RESTful APIs using Django and React.js. Played a key role in deploying microservices on GCP with Docker, optimizing MySQL databases, and integrating real-time data solutions. Delivered high-performance applications for AI-based surveillance, healthcare, and visual dashboards. Proficient in cloud deployment, containerization, and agile methodologies, contributing to multiple cross-functional projects that improved performance, scalability, and user engagement.",
+		skills: ["Python", "Django", "Django REST Framework", "MySQL", "Celery", "Redis", "WebSocket", "JWT", "Nginx", "SMTP", "Docker", "React.js", "GCP", "RTSP", "FFmpeg", "AES-256", "Swagger", "OpenCV"],
+	},
+	{
+		id: 1,
+		img: "https://media.licdn.com/dms/image/v2/C510BAQFrj0PtUIEf5Q/company-logo_100_100/company-logo_100_100/0/1630585684813/quantumware_logo?e=1757548800&v=beta&t=bRLjAGdeaqEsS_KmULuKItZLy3UVN9-EUzweDAI3Wv8",
+		role: "Software Engineer",
+		company: "Quantumware Technical Services Pvt. Ltd.",
+		date: "Jan 2022 - Oct 2024",
+		desc: "Worked as a Software Engineer focusing on full-stack web development using Python (Django), React.js, and RESTful APIs. Led the development of parental control and insurance management applications, supporting thousands of active users. Contributed to backend optimization, real-time data handling, and secured API integrations. Improved team efficiency by enhancing collaboration and reducing delivery timelines. Played a critical role in solving complex technical issues, optimizing database performance, and integrating automated workflows for scalable application deployment.",
+		skills: ["Python", "Django", "Django REST Framework", "MySQL", "Celery", "Redis", "WebSocket", "JWT", "Nginx", "SMTP", "Docker", "React.js", "AWS"],
+	},
+];
+
+export const projects = [
+	{
+		id: 0,
+		title: "Vision Intelligence Dashboard",
+		company: "AiVolved Technologies Pvt. Ltd.",
+		date: "Nov 2024 - Present",
+		description:
+			"Developed RESTful APIs and microservices for real-time data visualization using Django and React.js. Optimized MySQL queries, integrated AES-256 encryption, and deployed the system on GCP with Docker and Celery to handle 120GB+ daily visual data.",
+		image: CloudDashboard,
+		tags: ["Python", "Django REST Framework", "MySQL", "Celery", "Redis", "WebSocket", "Nginx", "Docker", "React.js", "AES-256", "GCP"],
+		category: "web app",
+	},
+	{
+		id: 1,
+		title: "Camera-Based AI Detection Tool",
+		company: "AiVolved Technologies Pvt. Ltd.",
+		date: "Apr 2025 - Present",
+		description:
+			"Designed and implemented backend architecture for AI-powered anomaly detection using Django REST Framework and React.js. Scaled application across multiple regions using GCP and handled 1,000+ concurrent users with secure, interactive dashboards.",
+		image: Nexify,
+		tags: ["Python", "Django REST Framework", "React.js", "Docker", "GCP"],
+		category: "web app",
+	},
+	{
+		id: 2,
+		title: "GluTrend – Glucose Monitoring Mobile Application",
+		company: "AiVolved Technologies Pvt. Ltd.",
+		date: "Jan 2025 - Apr 2025",
+		description:
+			"Created secure APIs to process Bluetooth-based glucose readings in real time with 99% accuracy. Enabled OTP-based authentication, improved MySQL retrieval speeds by 30%, and automated onboarding for 1,000+ medical camp users.",
+		image: GluTrend,
+		tags: ["Python", "Django REST Framework", "React.js", "Docker", "Nginx", "SMTP", "JWt","GCP"],
+		category: "web app",
+	},
+	{
+		id: 3,
+		title: "CCTV Camera Feed Dashboard – Surveillance Monitoring System",
+		company: "AiVolved Technologies Pvt. Ltd.",
+		date: "Dec 2024 - Feb 2025",
+		description:
+			"Built a real-time surveillance system using RTSP and FFmpeg to stream multiple CCTV feeds with <300ms latency. Developed scalable APIs and UI for section-wise camera management, improving monitoring efficiency by 50%.",
+		image: CCTVDashboard,
+		tags: ["Python", "Django REST Framework", "React.js", "FFmpeg", "RTSP", "WebSocket", "Celery", "Python GUI", "SMTP"],
+		category: "web app",
+	},
+	{
+		id: 4,
+		title: "PolicyStreet",
+		company: "Quantumware Technical Services Pvt. Ltd.",
+		date: "Jan 2022 - Oct 2024",
+		description:
+			"Developed an admin dashboard for insurance policy management using Django and MySQL. Automated policy workflows, added real-time email alerts, and improved dashboard load times by 35% through backend optimization and access control.",
+		image: PolicyStreet,
+		tags: ["Python", "Django REST Framework", "React.js", "Docker", "SMTP", "MySQL", "WebSocket", "Celery", "AWS"],
+		category: "web app",
+	}
+];
+
+export const certifications = [
 	{
 		id: 0,
 		img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HackerRank_Icon-1000px.png/800px-HackerRank_Icon-1000px.png",
@@ -156,17 +292,7 @@ export const experiences = [
 		desc: "Built an Personal Assistant - JARVIS AI using Python fundamentals and advanced topics like Multithreading, Exception Handling, and File Handling.",
 		skills: ["Python Fundamentals", "Advance Python", "PyQT"],
 		doc: pythonProgramme,
-	},
-	{
-		id: 4,
-		img: "https://media.licdn.com/dms/image/C510BAQHTUTKiMOSbyw/company-logo_200_200/0/1630615017322?e=2147483647&v=beta&t=1vDDPfFKGemx94-t_wJuSIfZ-FLa1mSrpodwe5zAM_I",
-		role: "Django Developer Intern",
-		company: "Pie Infocomm Pvt. Ltd.",
-		date: "Jul 2021 - Aug 2021",
-		desc: "Worked on a Django Project called Online Car Rental System. Handled User Authentication, Payment Integration, and Location-Based Car Availability.",
-		skills: ["Django", "Bootstrap"],
-		doc: djangoCertificate,
-	},
+	}
 ];
 
 export const education = [
@@ -196,190 +322,5 @@ export const education = [
 		grade: "81.13%",
 		desc: "My foundational education took place at Chhend Public School, Rourkela, where I successfully completed my Class 10 studies.",
 		degree: "BSE(X)",
-	},
-];
-
-export const projects = [
-	{
-		id: 12,
-		title: "Educa - eLearning Platform",
-		date: "May 2024 - Jul 2024",
-		description:
-			"The Django E-Learning Platform is a dynamic educational platform that facilitates learning through structured courses, interactive content, and a user-friendly interface. It's designed to cater to both educators who want to share knowledge and learners seeking to expand their horizons.",
-		image:
-			"https://github.com/study-soumya/educa-eLearning/raw/main/image/README/1721713716286.png",
-		tags: ["Django", "Django REST Framework", "Celery", "Redis", "WebSocket", "Nginx", "Docker", "Bootstrap","PostgreSQL"],
-		category: "web app",
-		github: "https://github.com/study-soumya/educa-eLearning/blob/main/README.md",
-		webapp: "https://github.com/study-soumya/educa-eLearning/blob/main/README.md",
-	},
-	{
-		id: 0,
-		title: "Badminton Pros - An Online Store",
-		date: "Sep 2023 - Dec 2023",
-		description:
-			"Designed and developed an E-Commerce website 'Badminton Pros - An Online Store' using Django, HTML, CSS, JavaScript and Bootstrap. It is a robust e-commerce solution tailored to badminton and professionals. Its user-friendly interface, security features, and payment integration make it a reliable and convenient online destination for those seeking high quality badminton equipment. This platform offers an exceptional online shopping experience for all your badminton needs. Key features of the platform are User Authentication, Email Verification, Payment Integration, Product Categories, Search and Filter, Shopping Cart and Checkout, Admin Panel, and Order Tracking.",
-		image:
-			"https://github.com/study-soumya/Badminton-Pros/raw/main/image/README/1702650795491.png",
-		tags: ["Django", "HTML", "CSS", "JavaScript", "Bootstrap", "SQLite3"],
-		category: "web app",
-		github: "https://github.com/study-soumya/Badminton-Pros",
-		webapp: "https://badminton-pros.onrender.com",
-	},
-	{
-		id: 1,
-		title: "ITECS - Blog Website",
-		date: "Jun 2023 - Jul 2023",
-		description:
-			"Designed and built a Personal Blog website 'IT Eagle Club Services' using Django, HTML, CSS, JavaScript and Bootstrap 4. Implemented User Authentication, Content Creation and Management, Categorization and Tagging, Commenting and Engagement, Search and Navigation functions for individuals to share their ideas, stories, and experiences.",
-		image:
-			"https://github.com/study-soumya/IT-Eagle-Club-Services/raw/main/image/README/1699866024051.png",
-		tags: ["Django", "HTML", "CSS", "JavaScript", "Bootstrap 4"],
-		category: "web app",
-		github: "https://github.com/study-soumya/IT-Eagle-Club-Services",
-		webapp: "https://it-eagles-club-services.onrender.com",
-	},
-	{
-		id: 2,
-		title: "Student's Point",
-		date: "Jan 2023 - Mar 2023",
-		description:
-			"Developed a responsive website a study portal using Django and Bootstrap. Implemented various operations like To-Do list, Notes,  Management using simple CRUD operation. Fetched YouTube Videos, Online Books, and Wikipedia on the website using Google APIs. Implemented features like User Authentication, Admin Panel Management, API calling, CRUD operation, Database Management.",
-		image:
-			"https://github.com/study-soumya/Student-s-Point/raw/main/image/README/1699861529592.png",
-		tags: ["Django", "Bootstrap 4", "SQLite3"],
-		category: "web app",
-		github: "https://github.com/study-soumya/Student-s-Point",
-		webapp: "https://students-point.onrender.com",
-	},
-	{
-		id: 3,
-		title: "Sweat Blood",
-		date: "Nov 2022 - Dec 2022",
-		description:
-			"The 'Sweat Blood' a gym website is a highly responsive digital platform meticulously crafted using a robust technology stack. Leveraging HTML, CSS, and JavaScript, we've ensured a seamless and user-friendly experience. To enhance interactivity and streamline communication, Email JS integration has been implemented. Furthermore, the use of Swiper JS enhances the website's visual appeal, making it an engaging and effective online presence for fitness enthusiasts and clients.",
-		image:
-			"https://github.com/study-soumya/Sweat-Blood/raw/main/image/README/1699890392373.png",
-		tags: ["HTML", "CSS", "JavaScript", "Email Js", "Swiper JS", "Remixicons"],
-		category: "UI/UX Designs",
-		github: "https://github.com/study-soumya/Sweat-Blood",
-		webapp: "https://sweat-blood.netlify.app/",
-	},
-	{
-		id: 4,
-		title: "DestinationsUnveiled",
-		date: "Sep 2022 - Oct 2022",
-		description:
-			"Discover the world with our innovative travel website, a dynamic and responsive platform meticulously crafted using a blend of cutting-edge technologies, including HTML, CSS, JavaScript, Email JS, and Swiper JS. Explore destinations, plan your journeys, and embark on unforgettable adventures with ease.",
-		image:
-			"https://github.com/study-soumya/DestinationsUnveiled/raw/main/image/README/1699942547389.png",
-		tags: ["HTML", "CSS", "JavaScript", "Email Js", "Swiper Js", "Remixicons"],
-		category: "UI/UX Designs",
-		github: "https://github.com/study-soumya/DestinationsUnveiled",
-		webapp: "https://destinations-unveiled.netlify.app/",
-	},
-	{
-		id: 5,
-		title: "Fruits Delight",
-		date: "Jul 2022 - Aug 2022",
-		description:
-			"Welcome to our innovative fruit-centric website, meticulously crafted with HTML, CSS, JavaScript, Email JS, and Swiper JS technologies to ensure a seamless and responsive user experience. Explore the vibrant world of fruits through our user-friendly interface, featuring dynamic content and engaging visuals. Stay connected with the latest updates, recipes, and nutritional insights on your favorite fruits. Experience the essence of nature's bounty at your fingertips with our thoughtfully designed, interactive Fruit website.",
-		image:
-			"https://github.com/study-soumya/Fruits-Delight/raw/main/image/README/1699892887144.png",
-		tags: ["HTML", "CSS", "JavaScript", "Email Js", "Swiper Js", "Remixicons"],
-		category: "UI/UX Designs",
-		github: "https://github.com/study-soumya/Fruits-Delight",
-		webapp: "https://fruits-delight.netlify.app/",
-	},
-	{
-		id: 6,
-		title: "Day Light",
-		date: "Apr 2022 - May 2022",
-		description:
-			"Welcome to Day Light, where innovation meets illumination! Our website is a sleek and user-friendly platform designed with HTML, CSS, and JavaScript to provide you with a bright and engaging experience. Explore a wide array of light bulbs, from energy-efficient LEDs to classic incandescent, all showcased in a modern and intuitive interface. With seamless navigation and interactive features powered by JavaScript, Day Light makes finding the perfect lighting solutions a breeze. Whether you're looking to brighten up your home or office, Day Light is your go-to destination for illuminating ideas and cutting-edge technology. Let there be light, and let it shine with Day Light!",
-		image:
-			"https://github.com/study-soumya/day-light/raw/main/image/README/1699943525827.png",
-		tags: ["HTML", "CSS", "JavaScript", "Email Js", "Swiper Js", "Remixicons"],
-		category: "UI/UX Designs",
-		github: "https://github.com/study-soumya/day-light",
-		webapp: "https://day-light-bulb.netlify.app/",
-	},
-	{
-		id: 7,
-		title: "JBL",
-		date: "Mar 2022",
-		description:
-			"Introducing the JBL Website — a testament to cutting-edge design and functionality. This responsive web platform is meticulously crafted using a powerful combination of HTML, CSS, and JavaScript technologies, enriched with the seamless integration of Swiper JS and Remixicons. Explore the immersive world of JBL through an elegantly responsive interface that adapts effortlessly across devices. This project showcases a commitment to delivering a superior user experience, harmonizing aesthetics with the latest web development innovations. Navigate through the site's dynamic features, seamlessly blending modern design principles with optimal performance. The JBL Website—where sophistication meets responsiveness.",
-		image:
-			"https://github.com/study-soumya/bass-expert-JBL/raw/main/image/README/1699944686823.png",
-		tags: ["HTML", "CSS", "JavaScript", "Email Js", "Swiper Js", "Remixicons"],
-		category: "UI/UX Designs",
-		github: "https://github.com/study-soumya/bass-expert-JBL",
-		webapp: "https://bass-expert-jbl.netlify.app/",
-	},
-	{
-		id: 8,
-		title: "Book A Car",
-		date: "Jul 2021 - Aug 2021",
-		description:
-			"Developed a responsive and user-friendly Car Booking System website 'Book A Car' using HTML, CSS, JavaScript, and Django Framework. Handled Car Rental process for both Car Dealers and Customers by implementing User Authentication, Location-Based Car Availability and Secure Payment Processing.",
-		image:
-			"https://github.com/study-soumya/Book-A-Car/raw/main/image/README/1699734715136.png",
-		tags: ["Django", "HTML", "CSS", "JavaScript", "BootStrap 4"],
-		category: "web app",
-		github: "https://github.com/study-soumya/Book-A-Car",
-		webapp: "https://book-a-car.onrender.com",
-	},
-	{
-		id: 9,
-		title: "JARVIS AI",
-		date: "Jun 2021 - Jul 2021",
-		description:
-			"Designed and built a voice-activated virtual assistant “JARVIS AI” which is a dynamic and multifunctional software system and developed using Python. Features are Voice Recognition and Command Interpretation, Text-to-Speech and Speech-to-Text Conversion, Task Automation, Natural Language Processing (NLP), Data Retrieval and Information Presentation, Customization and Extensibility, User Interaction, Integration with External Services.",
-		image:
-			"https://github.com/study-soumya/JARVIS-AI/raw/main/image/README/1699947516660.png",
-		tags: ["Python Programming", "PyQt5"],
-		category: "python",
-		github: "https://github.com/study-soumya/JARVIS-AI",
-		webapp: "https://github.com/study-soumya/JARVIS-AI",
-	},
-	{
-		id: 10,
-		title: "Snake Game",
-		date: "Mar 2021",
-		description:
-			"Developed a classic Snake Game using Pygame library in Python. Implemented the game logic using OOPs, including snake movement, food generation, and collision detection. Incorporated features such as score tracking, level progression, and game over conditions. Utilized Pygame's graphical capabilities to create an interactive and visually appealing gaming experience.",
-		image:
-			"https://github.com/study-soumya/snake-game/raw/main/image/README/1699946675073.png",
-		tags: ["Python", "Tkinter"],
-		category: "python",
-		github: "https://github.com/study-soumya/snake-game",
-		webapp: "https://github.com/study-soumya/snake-game",
-	},
-	{
-		id: 11,
-		title: "XCrypto",
-		date: "Jan 2024",
-		description:
-			"Built and develop a React App called xCrypto, which is a web application collecting online currency data from a third-party API. The app is designed to be user-friendly and easy to use. The user can see the coins in different currencies.",
-		image:
-			"https://github.com/user-attachments/assets/c5bb019d-db0d-4131-8861-9c60b4a986eb",
-		tags: ["ReactJS", "JavaScript"],
-		category: "UI/UX Designs",
-		github: "https://github.com/study-soumya/xCrypto/blob/main/README.md",
-		webapp: "https://xcrypto-azure-zeta.vercel.app/",
-	},
-	{
-		id: 13,
-		title: "da-Travel",
-		date: "Feb 2024",
-		description:
-			"This is a travel website built using ReactJS, and Sass.",
-		image:
-			"https://private-user-images.githubusercontent.com/145110077/369834225-aa1a9a37-5ce6-4c76-9edc-6a3b95ac432f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjcwODcxODgsIm5iZiI6MTcyNzA4Njg4OCwicGF0aCI6Ii8xNDUxMTAwNzcvMzY5ODM0MjI1LWFhMWE5YTM3LTVjZTYtNGM3Ni05ZWRjLTZhM2I5NWFjNDMyZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwOTIzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDkyM1QxMDIxMjhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yNjBmY2YwYzYzZWY4NDVlZDZjMzFmZmYzOGUwMjAzNjE4YTE1NWZmMzZhMWJkZWU3MWE4MjcxNzg4ODYxNTVkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.QUpfvDNpzVcN6N9u3ZOT40y1kJnPj3D_EQ8uOXOHwIk",
-		tags: ["ReactJS", "Sass"],
-		category: "UI/UX Designs",
-		github: "https://github.com/study-soumya/da-travel",
-		webapp: "https://da-travel.vercel.app/",
-	},
+	}
 ];
